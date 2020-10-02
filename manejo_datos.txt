@@ -1,0 +1,49 @@
+¿Qué es un array complejo?
+Es un array con keys personalizados.
+
+¿Qué logro con array_chunk?
+Dividir un array
+
+¿Qué es una función anónima?
+Es lo que usamos cuando una variable tiene necesidad de lógica.
+
+¿Cómo unimos dos array?
+Usando una función la función array_merge.
+
+¿Qué es un array simple?
+Es un array sin keys definidos.
+
+¿Qué son las expresiones regulares?
+Son patrones de comparación y se evalúan de izquierda a derecha.
+
+¿Podemos en PHP extraer textos de una oración?
+Sí, usando generalmente substr()
+
+¿Qué tecnologías debemos usar en un proyecto?
+JSON para Composer y XML para PHPUnit tal como lo hicimos en la creación del proyecto.
+
+¿Podemos devolver varios resultados con return?
+Sí, usando un array
+
+¿Qué formatos podemos dar a los textos con PHP?
+Alterar, reemplazar y modificar.
+
+
+--------------------------------------
+
+¿Qué logro con array_diff?
+**Mala*** Comparamos array usando la clave y el valor 
+
+¿Qué es PHP Avanzado?
+
+¿Qué signos puedo escapar entre comillas simples?
+
+
+¿Qué argumentos podemos configurar en una función?
+Valores, Referencias, Predetermianda
+
+Hace referencia a que nosotros colocamos directamente una 
+variable($name) esperando que eso se cumpla
+
+¿Cómo imprimo un elemento complejo?
+echo "<h1>Lenguaje: {$courses['backend'][0]} </h1><br>";
