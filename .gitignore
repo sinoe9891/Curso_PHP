@@ -1,0 +1,15 @@
+vendor/
+$RECYCLE.BIN/
+
+.DS_Store
+Thumbs.db
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+lpg.txt
+.vscode/
+npm-debug.log*
+*.sublime-project
+*.sublime-workspace
