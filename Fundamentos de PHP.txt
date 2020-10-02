@@ -1,0 +1,101 @@
+Todo sistema se basa en:
+
+Creamos sistemas para dar soluciones a problemas y/o necesidades.
+
+
+Resumen
+Un lenguaje de programación como cualquier idioma mantiene su propia regla, estas reglas se llaman sintaxis.
+
+El funcionamiento del mundo web siempre requerirá:
+Petición
+Procesamiento
+Respuesta
+
+¿En qué equipo desarrollamos el código?
+Servidor 
+
+
+¿Qué es la asignación por referencia?
+En la primera de estas operaciones, las referencias de PHP permiten hacer que dos variables hagan referencia al mismo contenido.
+
+
+
+
+Necesitamos:
+Servidor 
+Cliente
+Base de Datos
+Y conocer conceptos del Frontend
+
+Comados Composer:
+composer dump (Se crea toda la configuración de composer y autoload)
+composer (Lista de comandos)
+
+
+
+El desarrollo web siempre habrá un cliente el cual se conecta a un servidor y ese servidor tendrá una base de datos, la cual le proporciona la información a consumir para el sistema.
+
+Además se necesita conocimientos en frontend para mostrar y trabajar con los datos por lado del cliente.
+
+Buenas practicas:
+*Nuestro documento comience con la etiqueta de apertura
+*Que tenga extensión .php
+*Nuestras líneas cierren con punto y coma;
+*Organizar bien nuestro código
+*Tener bien comentado nuestro código.
+
+
+
+
+-------------------------------------------------------
+¿Qué es Composer?
+Es el sistema empleado para mantener un estándar profesional en nuestros proyectos web en PHP
+
+¿En qué equipo desarrollamos el código?
+En nuestro equipo convertido en cliente / servidor
+
+
+¿Qué es un programador?
+Es quien resuelve problemas usando un lenguaje de programación
+
+¿Qué es sintaxis?
+La forma correcta y adecuada de escribir para que una computadora entienda
+
+
+¿Qué es variables variables?
+Es lo que nos permite definir variables de forma dinámica
+
+¿Cuál es la función del archivo composer.lock?
+Registrar exactamente las versiones de paquetes instalados
+
+
+¿Cómo logramos la carga automática de clases?
+Usando el archivo autoload.php, ejemplo require_once 'vendor/autoload.php';
+
+¿Qué son los bloques de códigos en PHP?            
+Es lo que nos permite alterar el flujo de nuestro código o proyecto en PHP
+
+¿Qué comando usamos para crear un proyecto?
+composer init
+
+¿Qué es JSON?
+Es un estándar usado para la transferencia de datos, siendo este muy legible y ligero
+
+¿Qué es la gestión de paquetes?
+Es la principal virtud de Composer, este descarga, instala y se asegura directamente todas las dependencias
+
+Dentro de un paquete, ¿Qué significa italomoralesf/slug?
+Hace referencia al nombre de un paquete, indica el nombre del proveedor y luego el nombre del paquete directamente
+
+¿Qué es la asignación por referencia?
+Es apuntar sin hacer copia, significa observar
+
+¿Para qué se usa la llave autoload de composer?
+Para la configuración de carga automática propia de archivos y clases
+
+Todo sistema se basa en:
+
+
+
+¿Cuáles son los elementos de un sistema cliente / servidor?
+Un servidor con el código y base de datos, y un cliente con un navegador web
