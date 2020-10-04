@@ -19,31 +19,26 @@ Son patrones de comparación y se evalúan de izquierda a derecha.
 ¿Podemos en PHP extraer textos de una oración?
 Sí, usando generalmente substr()
 
-¿Qué tecnologías debemos usar en un proyecto?
-JSON para Composer y XML para PHPUnit tal como lo hicimos en la creación del proyecto.
-
 ¿Podemos devolver varios resultados con return?
 Sí, usando un array
 
 ¿Qué formatos podemos dar a los textos con PHP?
 Alterar, reemplazar y modificar.
 
-
---------------------------------------
-
-¿Qué logro con array_diff?
-**Mala*** Comparamos array usando la clave y el valor 
-
-¿Qué es PHP Avanzado?
-
-¿Qué signos puedo escapar entre comillas simples?
-
-
 ¿Qué argumentos podemos configurar en una función?
 Valores, Referencias, Predetermianda
 
-Hace referencia a que nosotros colocamos directamente una 
-variable($name) esperando que eso se cumpla
+¿Qué es PHP Avanzado?
+D
+
+¿Qué signos puedo escapar entre comillas simples?
+backslash y comillas
+
+¿Qué tecnologías debemos usar en un proyecto?
+Lenguaje de programación PHP, Composer y PHPUnit.
+
+¿Qué logro con array_diff?
+Logramos comparar array
 
 ¿Cómo imprimo un elemento complejo?
-echo "<h1>Lenguaje: {$courses['backend'][0]} </h1><br>";
+C
