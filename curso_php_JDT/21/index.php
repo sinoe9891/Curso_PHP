@@ -16,16 +16,11 @@
             <h2>Agenda Telefónica</h2>
             <?php 
                 function usuario($nombre, $tel){
-                    echo $nombre . "<br>";
-                    echo $tel . "<br>";
-                    echo "<hr>";
+                    return $contacto = $nombre . " " . $tel;
                 }
 
-                usuario("Danny Velasquez", "9450-0121");
-
-                usuario("Juan Pablo", "9450-0122");
-
-                usuario("Alma", "5340-0122");
+                $usuario = usuario("Danny Velasquez", "9450-0121");
+                echo $usuario;
             ?>
         </div>
 </body>
