@@ -16,9 +16,7 @@
             <h2>Agenda Telefónica</h2>
             <?php 
                 function usuario($nombre = 'John Doe', $tel= '0000-0000'){
-                    
                     return $contacto = $nombre . " " . $tel;
-                    
                 }
 
                 $usuario = usuario("Danny Velasquez", "9450-0121");

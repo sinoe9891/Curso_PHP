@@ -19,7 +19,7 @@
                 
             <h2>Lenguajes que conozco</h2>
             <ul>
-                <?php foreach ($tecnologia as $key => $tecnologias): ?>
+                <?php foreach ($tecnologia as $tecnologias): ?>
                     <li><?php echo $tecnologias ?></li>
                 <?php endforeach; ?>
             </ul>

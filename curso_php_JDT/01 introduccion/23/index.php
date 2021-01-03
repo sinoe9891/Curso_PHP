@@ -34,9 +34,13 @@
                     }
                 }
                 
-                //Imprimimos la posición que querramos.
+                //Imprimimos la posición o indice que querramos.
                 mostrarUsuario(0);
-
+                
+                for ($i=0; $i < 3; $i++) { 
+                    echo "<hr>";
+                    mostrarUsuario($i);
+                }
                 // echo "<pre>";
                 // var_dump($agenda);
                 // echo "</pre>";
