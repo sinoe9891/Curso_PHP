@@ -11,29 +11,24 @@
 
 <body>
     <div class="contenedor">
-        <h1>Aprediendo PHP - While en PHP</h1>
-         <div class="contenido">
+        <h1>Aprendiendo PHP - While en PHP</h1>
+        <div class="contenido">
             <?php $premier_league = array('Chelsea', 'Manchester City', 'Manchester United', 'Tottenham', 'Arsenal', 'Liverpool', 'Leicester'); ?>
             
             <?php $i = 0; ?>
-            <ul>
-
-            
-            <?php while($i < count($premier_league)) {
+            <?php while($i <= count($premier_league)) {
               if(count($premier_league) > 0 ) {
-                    echo "<li>" . $premier_league[$i] . "</li>";
+                    echo $premier_league[$i] . '<br/>';
                     if($i+1 === count($premier_league)) {
-                      echo "fin";
+                        $i++;
+                        echo "fin";
                     }
               } else {
                 echo "no hay resultados";
               }
               $i++;
             } ?>
-            </ul>
-              
         </div>
 </body>
 
 </html>
-
