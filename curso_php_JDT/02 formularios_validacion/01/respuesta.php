@@ -14,11 +14,13 @@
     <div class="contenedor">
         <h1>Aprendiendo PHP</h1>
 
+        <pre>
+            <?php
+                var_dump($_POST)
+            ?>
+        </pre>
+
     </div>
-
-
-
-
 </body>
 
 </html>

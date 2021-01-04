@@ -11,11 +11,11 @@
 <body>
 
     <div class="contenedor">
-        <h1>Aprendiendo PHP</h1>
+        <h1>Aprendiendo PHP - Leyendo e imprimiendo los valores de un GET</h1>
 
         <div class="contenido">
 
-            <form class="" action="respuesta.php" method="post">
+            <form class="" action="respuesta.php" method="get">
 
                 <div class="informacion">
 
