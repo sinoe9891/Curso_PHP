@@ -46,13 +46,27 @@
             if (isset($_POST['notificaciones'])) {
                 $notificaciones = $_POST['notificaciones'];
                 if ($notificaciones == 'on') {
-                    echo "Se ha inscrito correctamente a las notificaciones";
+                    echo "Se ha inscrito correctamente a las notificaciones<br>";
                 }
             }
         ?>
 
         <?php //Leyendo valores de múltiples checkboxes ?>
+        <!-- <pre>
+            <?php var_dump($_POST['curso'])?>
+        </pre> -->
 
+        <?php
+            if (isset($_POST['curso'])) {
+                $cursos = $_POST['curso'];
+                echo "Tus cursos son: <br>";
+                foreach ($cursos as $curso) {
+                    echo $curso . '<br>';
+                }
+            }else {
+                echo "No seleccionaste ningún curso";
+            }
+        ?>
     </div>
 </body>
 
